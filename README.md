@@ -1,2 +1,2 @@
-# DSA---Practice-
-For tracking the dsa progression and be Consistent.
+# DSA Practice
+For tracking the DSA progression and being consistent.
