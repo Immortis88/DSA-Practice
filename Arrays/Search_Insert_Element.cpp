@@ -1,3 +1,11 @@
+/*
+Lc 35 : Search Insert Element
+
+NOTE : you cant just do if condition and check for less than equal to or greater than simultaneously 
+- check always for out of bound condition like- nums.size()-1
+-  
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -27,11 +35,11 @@ int main() {
     Solution sol;
 
     vector<pair<vector<int>, int>> tests = {
-        {{1, 3, 5, 6}, 5},   // expected: 2
-        {{1, 3, 5, 6}, 2},   // expected: 1
-        {{1, 3, 5, 6}, 7},   // expected: 4
-        {{1, 3, 5, 6}, 0},   // expected: 0
-        {{1},          1},   // expected: 0
+        {{1, 3, 5, 6}, 5},   
+        {{1, 3, 5, 6}, 2},   
+        {{1, 3, 5, 6}, 7},   
+        {{1, 3, 5, 6}, 0},   
+        {{1},          1},   
     };
 
     for (auto& [nums, target] : tests) {
